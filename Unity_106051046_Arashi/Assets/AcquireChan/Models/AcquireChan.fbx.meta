@@ -1,191 +1,565 @@
 fileFormatVersion: 2
 guid: 50a0208afad970f42b91e82ff62fab00
-timeCreated: 1515146525
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: body
-    100004: face
-    100006: hair
-    100008: mesh
-    100010: mn_c_head
-    100012: mn_c_main
-    100014: mn_c_neck
-    100016: mn_c_spine_01
-    100018: mn_c_spine_02
-    100020: mn_l_ankle
-    100022: mn_l_collar
-    100024: mn_l_elbow
-    100026: mn_l_f1_1
-    100028: mn_l_f1_2
-    100030: mn_l_f1_3
-    100032: mn_l_f1_4
-    100034: mn_l_f2_1
-    100036: mn_l_f2_2
-    100038: mn_l_f2_3
-    100040: mn_l_f2_4
-    100042: mn_l_f3_1
-    100044: mn_l_f3_2
-    100046: mn_l_f3_3
-    100048: mn_l_f3_4
-    100050: mn_l_f4_1
-    100052: mn_l_f4_2
-    100054: mn_l_f4_3
-    100056: mn_l_f4_4
-    100058: mn_l_f5_1
-    100060: mn_l_f5_2
-    100062: mn_l_f5_3
-    100064: mn_l_f5_4
-    100066: mn_l_hip
-    100068: mn_l_knee
-    100070: mn_l_shoulder
-    100072: mn_l_toe
-    100074: mn_l_wrist
-    100076: mn_r_ankle
-    100078: mn_r_collar
-    100080: mn_r_elbow
-    100082: mn_r_f1_1
-    100084: mn_r_f1_2
-    100086: mn_r_f1_3
-    100088: mn_r_f1_4
-    100090: mn_r_f2_1
-    100092: mn_r_f2_2
-    100094: mn_r_f2_3
-    100096: mn_r_f2_4
-    100098: mn_r_f3_1
-    100100: mn_r_f3_2
-    100102: mn_r_f3_3
-    100104: mn_r_f3_4
-    100106: mn_r_f4_1
-    100108: mn_r_f4_2
-    100110: mn_r_f4_3
-    100112: mn_r_f4_4
-    100114: mn_r_f5_1
-    100116: mn_r_f5_2
-    100118: mn_r_f5_3
-    100120: mn_r_f5_4
-    100122: mn_r_hip
-    100124: mn_r_knee
-    100126: mn_r_shoulder
-    100128: mn_r_toe
-    100130: mn_r_wrist
-    100132: move
-    100134: root
-    100136: sj_l_shoulder
-    100138: sj_l_wrist
-    100140: sj_r_shoulder
-    100142: sj_r_wrist
-    100144: skin
-    100146: ye_b_hair_01
-    100148: yr_r_hair_01
-    100150: yr_r_hair_02
-    100152: yr_r_hair_03
-    100154: hand_01
-    100156: wp_l_wrist
-    100158: wp_r_wrist
-    100160: ye_r_hair_04
-    100162: hand_nml_01
-    400000: //RootNode
-    400002: body
-    400004: face
-    400006: hair
-    400008: mesh
-    400010: mn_c_head
-    400012: mn_c_main
-    400014: mn_c_neck
-    400016: mn_c_spine_01
-    400018: mn_c_spine_02
-    400020: mn_l_ankle
-    400022: mn_l_collar
-    400024: mn_l_elbow
-    400026: mn_l_f1_1
-    400028: mn_l_f1_2
-    400030: mn_l_f1_3
-    400032: mn_l_f1_4
-    400034: mn_l_f2_1
-    400036: mn_l_f2_2
-    400038: mn_l_f2_3
-    400040: mn_l_f2_4
-    400042: mn_l_f3_1
-    400044: mn_l_f3_2
-    400046: mn_l_f3_3
-    400048: mn_l_f3_4
-    400050: mn_l_f4_1
-    400052: mn_l_f4_2
-    400054: mn_l_f4_3
-    400056: mn_l_f4_4
-    400058: mn_l_f5_1
-    400060: mn_l_f5_2
-    400062: mn_l_f5_3
-    400064: mn_l_f5_4
-    400066: mn_l_hip
-    400068: mn_l_knee
-    400070: mn_l_shoulder
-    400072: mn_l_toe
-    400074: mn_l_wrist
-    400076: mn_r_ankle
-    400078: mn_r_collar
-    400080: mn_r_elbow
-    400082: mn_r_f1_1
-    400084: mn_r_f1_2
-    400086: mn_r_f1_3
-    400088: mn_r_f1_4
-    400090: mn_r_f2_1
-    400092: mn_r_f2_2
-    400094: mn_r_f2_3
-    400096: mn_r_f2_4
-    400098: mn_r_f3_1
-    400100: mn_r_f3_2
-    400102: mn_r_f3_3
-    400104: mn_r_f3_4
-    400106: mn_r_f4_1
-    400108: mn_r_f4_2
-    400110: mn_r_f4_3
-    400112: mn_r_f4_4
-    400114: mn_r_f5_1
-    400116: mn_r_f5_2
-    400118: mn_r_f5_3
-    400120: mn_r_f5_4
-    400122: mn_r_hip
-    400124: mn_r_knee
-    400126: mn_r_shoulder
-    400128: mn_r_toe
-    400130: mn_r_wrist
-    400132: move
-    400134: root
-    400136: sj_l_shoulder
-    400138: sj_l_wrist
-    400140: sj_r_shoulder
-    400142: sj_r_wrist
-    400144: skin
-    400146: ye_b_hair_01
-    400148: yr_r_hair_01
-    400150: yr_r_hair_02
-    400152: yr_r_hair_03
-    400154: hand_01
-    400156: wp_l_wrist
-    400158: wp_r_wrist
-    400160: ye_r_hair_04
-    400162: hand_nml_01
-    4300000: face
-    4300002: skin
-    4300004: hair
-    4300006: body
-    4300008: hand_01
-    4300010: hand_nml_01
-    9500000: //RootNode
-    13700000: body
-    13700002: face
-    13700004: hair
-    13700006: skin
-    13700008: hand_01
-    13700010: hand_nml_01
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: body
+  - first:
+      1: 100004
+    second: face
+  - first:
+      1: 100006
+    second: hair
+  - first:
+      1: 100008
+    second: mesh
+  - first:
+      1: 100010
+    second: mn_c_head
+  - first:
+      1: 100012
+    second: mn_c_main
+  - first:
+      1: 100014
+    second: mn_c_neck
+  - first:
+      1: 100016
+    second: mn_c_spine_01
+  - first:
+      1: 100018
+    second: mn_c_spine_02
+  - first:
+      1: 100020
+    second: mn_l_ankle
+  - first:
+      1: 100022
+    second: mn_l_collar
+  - first:
+      1: 100024
+    second: mn_l_elbow
+  - first:
+      1: 100026
+    second: mn_l_f1_1
+  - first:
+      1: 100028
+    second: mn_l_f1_2
+  - first:
+      1: 100030
+    second: mn_l_f1_3
+  - first:
+      1: 100032
+    second: mn_l_f1_4
+  - first:
+      1: 100034
+    second: mn_l_f2_1
+  - first:
+      1: 100036
+    second: mn_l_f2_2
+  - first:
+      1: 100038
+    second: mn_l_f2_3
+  - first:
+      1: 100040
+    second: mn_l_f2_4
+  - first:
+      1: 100042
+    second: mn_l_f3_1
+  - first:
+      1: 100044
+    second: mn_l_f3_2
+  - first:
+      1: 100046
+    second: mn_l_f3_3
+  - first:
+      1: 100048
+    second: mn_l_f3_4
+  - first:
+      1: 100050
+    second: mn_l_f4_1
+  - first:
+      1: 100052
+    second: mn_l_f4_2
+  - first:
+      1: 100054
+    second: mn_l_f4_3
+  - first:
+      1: 100056
+    second: mn_l_f4_4
+  - first:
+      1: 100058
+    second: mn_l_f5_1
+  - first:
+      1: 100060
+    second: mn_l_f5_2
+  - first:
+      1: 100062
+    second: mn_l_f5_3
+  - first:
+      1: 100064
+    second: mn_l_f5_4
+  - first:
+      1: 100066
+    second: mn_l_hip
+  - first:
+      1: 100068
+    second: mn_l_knee
+  - first:
+      1: 100070
+    second: mn_l_shoulder
+  - first:
+      1: 100072
+    second: mn_l_toe
+  - first:
+      1: 100074
+    second: mn_l_wrist
+  - first:
+      1: 100076
+    second: mn_r_ankle
+  - first:
+      1: 100078
+    second: mn_r_collar
+  - first:
+      1: 100080
+    second: mn_r_elbow
+  - first:
+      1: 100082
+    second: mn_r_f1_1
+  - first:
+      1: 100084
+    second: mn_r_f1_2
+  - first:
+      1: 100086
+    second: mn_r_f1_3
+  - first:
+      1: 100088
+    second: mn_r_f1_4
+  - first:
+      1: 100090
+    second: mn_r_f2_1
+  - first:
+      1: 100092
+    second: mn_r_f2_2
+  - first:
+      1: 100094
+    second: mn_r_f2_3
+  - first:
+      1: 100096
+    second: mn_r_f2_4
+  - first:
+      1: 100098
+    second: mn_r_f3_1
+  - first:
+      1: 100100
+    second: mn_r_f3_2
+  - first:
+      1: 100102
+    second: mn_r_f3_3
+  - first:
+      1: 100104
+    second: mn_r_f3_4
+  - first:
+      1: 100106
+    second: mn_r_f4_1
+  - first:
+      1: 100108
+    second: mn_r_f4_2
+  - first:
+      1: 100110
+    second: mn_r_f4_3
+  - first:
+      1: 100112
+    second: mn_r_f4_4
+  - first:
+      1: 100114
+    second: mn_r_f5_1
+  - first:
+      1: 100116
+    second: mn_r_f5_2
+  - first:
+      1: 100118
+    second: mn_r_f5_3
+  - first:
+      1: 100120
+    second: mn_r_f5_4
+  - first:
+      1: 100122
+    second: mn_r_hip
+  - first:
+      1: 100124
+    second: mn_r_knee
+  - first:
+      1: 100126
+    second: mn_r_shoulder
+  - first:
+      1: 100128
+    second: mn_r_toe
+  - first:
+      1: 100130
+    second: mn_r_wrist
+  - first:
+      1: 100132
+    second: move
+  - first:
+      1: 100134
+    second: root
+  - first:
+      1: 100136
+    second: sj_l_shoulder
+  - first:
+      1: 100138
+    second: sj_l_wrist
+  - first:
+      1: 100140
+    second: sj_r_shoulder
+  - first:
+      1: 100142
+    second: sj_r_wrist
+  - first:
+      1: 100144
+    second: skin
+  - first:
+      1: 100146
+    second: ye_b_hair_01
+  - first:
+      1: 100148
+    second: yr_r_hair_01
+  - first:
+      1: 100150
+    second: yr_r_hair_02
+  - first:
+      1: 100152
+    second: yr_r_hair_03
+  - first:
+      1: 100154
+    second: hand_01
+  - first:
+      1: 100156
+    second: wp_l_wrist
+  - first:
+      1: 100158
+    second: wp_r_wrist
+  - first:
+      1: 100160
+    second: ye_r_hair_04
+  - first:
+      1: 100162
+    second: hand_nml_01
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: body
+  - first:
+      4: 400004
+    second: face
+  - first:
+      4: 400006
+    second: hair
+  - first:
+      4: 400008
+    second: mesh
+  - first:
+      4: 400010
+    second: mn_c_head
+  - first:
+      4: 400012
+    second: mn_c_main
+  - first:
+      4: 400014
+    second: mn_c_neck
+  - first:
+      4: 400016
+    second: mn_c_spine_01
+  - first:
+      4: 400018
+    second: mn_c_spine_02
+  - first:
+      4: 400020
+    second: mn_l_ankle
+  - first:
+      4: 400022
+    second: mn_l_collar
+  - first:
+      4: 400024
+    second: mn_l_elbow
+  - first:
+      4: 400026
+    second: mn_l_f1_1
+  - first:
+      4: 400028
+    second: mn_l_f1_2
+  - first:
+      4: 400030
+    second: mn_l_f1_3
+  - first:
+      4: 400032
+    second: mn_l_f1_4
+  - first:
+      4: 400034
+    second: mn_l_f2_1
+  - first:
+      4: 400036
+    second: mn_l_f2_2
+  - first:
+      4: 400038
+    second: mn_l_f2_3
+  - first:
+      4: 400040
+    second: mn_l_f2_4
+  - first:
+      4: 400042
+    second: mn_l_f3_1
+  - first:
+      4: 400044
+    second: mn_l_f3_2
+  - first:
+      4: 400046
+    second: mn_l_f3_3
+  - first:
+      4: 400048
+    second: mn_l_f3_4
+  - first:
+      4: 400050
+    second: mn_l_f4_1
+  - first:
+      4: 400052
+    second: mn_l_f4_2
+  - first:
+      4: 400054
+    second: mn_l_f4_3
+  - first:
+      4: 400056
+    second: mn_l_f4_4
+  - first:
+      4: 400058
+    second: mn_l_f5_1
+  - first:
+      4: 400060
+    second: mn_l_f5_2
+  - first:
+      4: 400062
+    second: mn_l_f5_3
+  - first:
+      4: 400064
+    second: mn_l_f5_4
+  - first:
+      4: 400066
+    second: mn_l_hip
+  - first:
+      4: 400068
+    second: mn_l_knee
+  - first:
+      4: 400070
+    second: mn_l_shoulder
+  - first:
+      4: 400072
+    second: mn_l_toe
+  - first:
+      4: 400074
+    second: mn_l_wrist
+  - first:
+      4: 400076
+    second: mn_r_ankle
+  - first:
+      4: 400078
+    second: mn_r_collar
+  - first:
+      4: 400080
+    second: mn_r_elbow
+  - first:
+      4: 400082
+    second: mn_r_f1_1
+  - first:
+      4: 400084
+    second: mn_r_f1_2
+  - first:
+      4: 400086
+    second: mn_r_f1_3
+  - first:
+      4: 400088
+    second: mn_r_f1_4
+  - first:
+      4: 400090
+    second: mn_r_f2_1
+  - first:
+      4: 400092
+    second: mn_r_f2_2
+  - first:
+      4: 400094
+    second: mn_r_f2_3
+  - first:
+      4: 400096
+    second: mn_r_f2_4
+  - first:
+      4: 400098
+    second: mn_r_f3_1
+  - first:
+      4: 400100
+    second: mn_r_f3_2
+  - first:
+      4: 400102
+    second: mn_r_f3_3
+  - first:
+      4: 400104
+    second: mn_r_f3_4
+  - first:
+      4: 400106
+    second: mn_r_f4_1
+  - first:
+      4: 400108
+    second: mn_r_f4_2
+  - first:
+      4: 400110
+    second: mn_r_f4_3
+  - first:
+      4: 400112
+    second: mn_r_f4_4
+  - first:
+      4: 400114
+    second: mn_r_f5_1
+  - first:
+      4: 400116
+    second: mn_r_f5_2
+  - first:
+      4: 400118
+    second: mn_r_f5_3
+  - first:
+      4: 400120
+    second: mn_r_f5_4
+  - first:
+      4: 400122
+    second: mn_r_hip
+  - first:
+      4: 400124
+    second: mn_r_knee
+  - first:
+      4: 400126
+    second: mn_r_shoulder
+  - first:
+      4: 400128
+    second: mn_r_toe
+  - first:
+      4: 400130
+    second: mn_r_wrist
+  - first:
+      4: 400132
+    second: move
+  - first:
+      4: 400134
+    second: root
+  - first:
+      4: 400136
+    second: sj_l_shoulder
+  - first:
+      4: 400138
+    second: sj_l_wrist
+  - first:
+      4: 400140
+    second: sj_r_shoulder
+  - first:
+      4: 400142
+    second: sj_r_wrist
+  - first:
+      4: 400144
+    second: skin
+  - first:
+      4: 400146
+    second: ye_b_hair_01
+  - first:
+      4: 400148
+    second: yr_r_hair_01
+  - first:
+      4: 400150
+    second: yr_r_hair_02
+  - first:
+      4: 400152
+    second: yr_r_hair_03
+  - first:
+      4: 400154
+    second: hand_01
+  - first:
+      4: 400156
+    second: wp_l_wrist
+  - first:
+      4: 400158
+    second: wp_r_wrist
+  - first:
+      4: 400160
+    second: ye_r_hair_04
+  - first:
+      4: 400162
+    second: hand_nml_01
+  - first:
+      43: 4300000
+    second: face
+  - first:
+      43: 4300002
+    second: skin
+  - first:
+      43: 4300004
+    second: hair
+  - first:
+      43: 4300006
+    second: body
+  - first:
+      43: 4300008
+    second: hand_01
+  - first:
+      43: 4300010
+    second: hand_nml_01
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: body
+  - first:
+      137: 13700002
+    second: face
+  - first:
+      137: 13700004
+    second: hair
+  - first:
+      137: 13700006
+    second: skin
+  - first:
+      137: 13700008
+    second: hand_01
+  - first:
+      137: 13700010
+    second: hand_nml_01
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrmt_com_skin_01
+    second: {fileID: 2100000, guid: ea56e6a5f97064544a647035754685cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrmt_f_acquire_body_01
+    second: {fileID: 2100000, guid: fe6a22f35544fdd46b52ce3d2c49ac6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrmt_f_acquire_face_01
+    second: {fileID: 2100000, guid: f4773a8e5d4ac104b888a1580b05b466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrmt_f_acquire_hair_01
+    second: {fileID: 2100000, guid: a66c7d0527b036a409d275859476c395, type: 2}
   materials:
     importMaterials: 1
     materialName: 1
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -198,12 +572,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -211,13 +588,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -227,179 +614,16 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
-    human:
-    - boneName: mn_c_main
-      humanName: Hips
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_l_hip
-      humanName: LeftUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_r_hip
-      humanName: RightUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_l_knee
-      humanName: LeftLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_r_knee
-      humanName: RightLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_l_ankle
-      humanName: LeftFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_r_ankle
-      humanName: RightFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_c_spine_01
-      humanName: Spine
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_c_spine_02
-      humanName: Chest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_c_neck
-      humanName: Neck
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_c_head
-      humanName: Head
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_l_collar
-      humanName: LeftShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_r_collar
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_l_shoulder
-      humanName: LeftUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_r_shoulder
-      humanName: RightUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_l_elbow
-      humanName: LeftLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_r_elbow
-      humanName: RightLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_l_wrist
-      humanName: LeftHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_r_wrist
-      humanName: RightHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_l_toe
-      humanName: LeftToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: mn_r_toe
-      humanName: RightToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
+    serializedVersion: 3
+    human: []
     skeleton:
     - name: AcquireChan(Clone)
       parentName: 
@@ -608,13 +832,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 3
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
