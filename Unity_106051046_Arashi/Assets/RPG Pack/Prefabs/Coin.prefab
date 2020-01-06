@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000013555364002}
+  - component: {fileID: 1996916472325223376}
   m_Layer: 0
   m_Name: Coin
-  m_TagString: Untagged
+  m_TagString: "\u9053\u5177"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,6 +32,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 59.492004, z: 0}
+--- !u!136 &1996916472325223376
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011365394840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.21408987
+  m_Height: 0.6376653
+  m_Direction: 1
+  m_Center: {x: 0.02, y: 0.9310323, z: 0.00000024210627}
 --- !u!1 &1000013760068644
 GameObject:
   m_ObjectHideFlags: 0
