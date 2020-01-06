@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
+
 
 public class DialogSystem : MonoBehaviour
 {
@@ -19,6 +21,8 @@ public class DialogSystem : MonoBehaviour
         uiGroup.alpha = 1;
         textName.text = getName;
         textContent.text = getContent;
+        Invoke("HideDialog", 3);
+
     }
 
     public void HideDialog()
